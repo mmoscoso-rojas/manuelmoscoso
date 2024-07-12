@@ -5,5 +5,271 @@
     "title": "Manuel Moscoso-Rojas",
     "section": "",
     "text": "Bio\nWelcome! I am a Ph.D. candidate in Political Science at Brown University, specializing in Comparative Politics and Research Methods. My research interests include war-to-peace transitions, Latin American politics, and the intersection of distributive politics and the politics of public security, with a particular interest in designing and evaluating crime prevention initiatives and programs that promote the (re)integration of police authorities into society. Most of my work employs a quantitative approach, utilizing both experimental and observational methods.\nI hold a B.A. and M.Sc. in Economics from Universidad Javeriana and an M.A. in Political Science from Brown University.\nMy work has received funding from Brown University, J-PAL, UNDP, and IOM. I have contributed in various capacities to the International Justice Mission, USAID, the Policy and Strategy Division in the Colombian Prosecution Office, the Security and Justice Division of the National Planning Department, and the Conflict Analysis Resources Center (CERAC).\n\n\nKey research interests\n\nThe Politics of Public Security: Police-society interactions, the role of policing institutions in authoritarian and non-authoritarian regimes\nWar-to-Peace and Peace-to-War Transitions: Rebel governance, contemporary state-building, war and peace funding\nResearch Methods: causal inference using experimental and observational methods"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "",
+    "text": "Hello, and welcome to my new site, built using Quarto. Here’s why I switched from {distill} and the resources that helped me in the process. I also outline some of the customisations I made and set out plans for future blog posts."
+  },
+  {
+    "objectID": "index.html#why-quarto-why-now",
+    "href": "index.html#why-quarto-why-now",
+    "title": "Welcome to my Quarto website!",
+    "section": "Why Quarto? Why now?",
+    "text": "Why Quarto? Why now?\nI was very happy with my previous website built using {distill}. Then Quarto was released and it quickly became clear that everything that I loved about working with {distill} was true of Quarto, and then some. As a keen user of a whole suite of packages in the R Markdown ecosystem, I could see the appeal of one coherent system to produce reports, presentations, books and websites. Moreover, Quarto is the natural successor to R Markdown, bringing with it a vast range of improvements, building on what Posit (formerly RStudio) learnt over a decade of developing the latter. When it was made clear that although Posit will maintain {distill}, all future improvements will be to Quarto, I knew it was only a matter of time before I rewrote my website once again (for the fourth time).\nI’m finding working with Quarto to be an absolute joy!"
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Welcome to my Quarto website!",
+    "section": "Resources",
+    "text": "Resources\nThis post is not a guide on how to get a Quarto website up and running and styled. There are already great resources for that. These are the the ones that I found most helpful.\n\nThe basics\n\nMy first taste of Quarto was Mine Çetinkaya-Rundel’s talk about it at the 2022 Toronto Workshop on Reproducibility.\nThe official Quarto tutorials taught me the basics.\nThe official Quarto guide is a treasure trove with the section on websites being, needless to say, most helpful for the development of this site.\n\nThese two posts on making the transition from R Markdown/{distill} to Quarto were also extremely useful:\n\nDanielle Navarro on porting a distill blog to Quarto.\nAlison Hill’s post on why we don’t talk about Quarto.\n\n\n\nGoing further\nThe above resources were enough for me to replicate the website I’d built with {distill}, but as I was putting it together, a couple of excellent posts were published that showed how much customisation was possible, and which massively increased my ambitions for my new site:\n\nAlbert Rapp’s ultimate guide to starting a Quarto blog.\nChristian Gebhard’s guide on switching to Quarto.\n\nThese two posts, in particular, gave me the inspiration and most of the know-how to create my custom home page. They also both contain helpful information on themes and styling."
+  },
+  {
+    "objectID": "about.html#why-quarto-why-now",
+    "href": "about.html#why-quarto-why-now",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "Why Quarto? Why now?",
+    "text": "Why Quarto? Why now?\nI was very happy with my previous website built using {distill}. Then Quarto was released and it quickly became clear that everything that I loved about working with {distill} was true of Quarto, and then some. As a keen user of a whole suite of packages in the R Markdown ecosystem, I could see the appeal of one coherent system to produce reports, presentations, books and websites. Moreover, Quarto is the natural successor to R Markdown, bringing with it a vast range of improvements, building on what Posit (formerly RStudio) learnt over a decade of developing the latter. When it was made clear that although Posit will maintain {distill}, all future improvements will be to Quarto, I knew it was only a matter of time before I rewrote my website once again (for the fourth time).\nI’m finding working with Quarto to be an absolute joy!"
+  },
+  {
+    "objectID": "about.html#resources",
+    "href": "about.html#resources",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "Resources",
+    "text": "Resources\nThis post is not a guide on how to get a Quarto website up and running and styled. There are already great resources for that. These are the the ones that I found most helpful."
+  },
+  {
+    "objectID": "index.html#my-customisations-aka-how-long-could-this-possibly-take",
+    "href": "index.html#my-customisations-aka-how-long-could-this-possibly-take",
+    "title": "Welcome to my Quarto website!",
+    "section": "My customisations AKA how long could this possibly take?",
+    "text": "My customisations AKA how long could this possibly take?\nI didn’t think it would take too long to make some tweaks, but the more I worked on the site, the more I wanted to change. I’ve managed, with help, to implement customisations that I haven’t seen or read about elsewhere in relation to Quarto. Getting a basic Quarto site up is relatively straight-forward (in fact, Tom Mock shows how it can be done in just 100 seconds), but extensive customisation, particularly when starting with a rudimentary knowledge of HTML and CSS, turned out to be pretty tricky.\nIn this section, I’m going to list what I think are the cool features of this site, all of which I had to learn how to implement as I went along. Some of them are Quarto-specific. Others I expect will be fairly standard to those with a more advanced knowledge of front-end web development, but may well also be new to others who, like me, have come to website-building with Quarto from a backgroud in R programming rather than HTML/CSS/JS.\nFor the sake of brevity, in this post I don’t detail how I achieved these customisations. I just note what I had to learn to implement them. I intend to spin each of the points below into separate tutorial-style blog posts. If you’re interested in seeing how I implemented them in the meantime, you can check out this site’s repo.\n\nAnimated CSS logo\nMy favourite feature of my website is the logo/home link in the top left corner, which is animated on hover.1 To implement this, I had to learn first how to create and style the static version using HTML and CSS and then how to apply the CSS animation. I also had to figure out what HTML I could get away with using in _quarto.yml and the best place in that file to add the code. There were also inconsistencies between browers to contend with. I was inspired to animate my logo by Maya Gans, who helped me a lot with the implementation.\nCreating a logo with CSS also made it possible to easily change its appearance in the light and dark modes of the site. Along the way, I also learnt another strategy for using different logo images in light and dark modes, using CSS to overwrite one image file with another, which is useful if a logo doesn’t lend itself to creation in CSS.\n\n\nAnimated navigation bar links and colours\nHaving animated my logo, I turned to adding an animation on hover to the rest of the links on the navigation bar and learnt more CSS in the process, including @media queries to ensure that the animations only activate when the navbar is in a row. I found a solution online for the animation itself, but figuring out how to match the colours on hover and on the link for the active page to the colour of the corresponding card on the homepage was tricky.\n\n\nCSS grid and bootstrap cards\nSpeaking of which, creating the custom layout of my homepage, using CSS grid and bootstrap cards, was a challenge. The blog posts by Albert and Christian linked to in the previous section got me a lot of the way there, but I still had to dive deep into the bootstrap documentation to make sure the cards and the links inside them all lined up nicely.\n\n\nLight and dark mode\nI put a lot of thought into the colour scheme for both the light and dark modes of the site, and making sure they complemented each other perfectly. For this, I built on what I’d learnt about colour theory and accessibility when designing a custom syntax highlight scheme for my previous website. I also learnt about Sass and made extensive use of custom Sass variables.\n\n\nCustom syntax highlighting\nHaving implemented a custom syntax highlight theme for my {distill} site, and created a function for the {distilltools} package so others could do the same, I had hoped to be able to port that straight over to my Quarto site. Unfortunately, it wasn’t so simple. Although they are both called arrow, there are changes in the implementation of the default syntax highlight scheme for Quarto from how it was implemented in {distill}, and, to make things more awkward, there are also inconsistencies between the light and dark versions of arrow in Quarto. It took me a while to get my head around all that. Modifying my original highlighting theme and creating a complementary theme for the dark mode was finicky.\n\n\ngiscus comments box light/dark toggle\nQuarto makes it easy to add giscus comments boxes, and giscus (and in turn Quarto) make it simple to select from a handful of different themes to style those boxes. There are a selection of light and dark themes, and one option to set the default light or dark theme dynamically based on your computer system setting. There was not, however, an obvious way of making the theme of the giscus box change responsively on toggling the light/dark switch. In response to my query, with a lot of back and forth, Sage (the creator of giscus) figured out the JavaScript to make this happen and I figured out how to integrate it into the Quarto site.\nI would like to apply custom CSS to the giscus comments box in both light and dark modes, which should be possible. I haven’t yet been able to make it work, though, which appears to be an issue related to hosting on Netlify.\n\n\nLocal fonts and open type font features\nBecause I’m interested in typography and think that professional fonts are worth paying for, and in order to give my site a distinct appearance, I purchased licenses for Lemon Milk Pro (used for body and header text) and MonoLisa (used for code). Having done so, I then had to learn the CSS/Sass to apply the local font files to the site. I also learnt all about open type font features, and how to turn them on and off using CSS. I needed this to turn off the default coding ligatures in MonoLisa.2\n\n\nIcon links\nAs on my {distill} site, I’ve made copious use of the icon_link() function in my {distilltools} package, a handy R function that creates a link, with an icon and some text that, with some additional CSS, can be styled a bit like a button, e.g. the code\nhttps://ellakaye.co.uk/contact.html\ndistilltools::icon_link(\n  icon = \"github\",\n  text = \"site repo\",\n  url = \"https://github.com/EllaKaye/ellakaye.co.uk\"\n)"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Welcome to my Quarto website!",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis works best on a laptop/desktop but there’s a hint of it on a smartphone when the logo is pressed.↩︎\nAs much as I love coding ligatures when writing code for myself, I prefer not to use them when demonstrating code to others as it’s not then clear what they have to type to replicate it.↩︎"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "title: “Publications”"
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "2023",
+    "text": "2023\n\nTitle of Publication 1. Journal Name, Vol(Issue), Page numbers. Link\nTitle of Publication 2. Journal Name, Vol(Issue), Page numbers. Link"
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\n\nTitle of Publication 3. Journal Name, Vol(Issue), Page numbers. Link"
+  },
+  {
+    "objectID": "index.html#more-about-me",
+    "href": "index.html#more-about-me",
+    "title": "Welcome to my Quarto website!",
+    "section": "more about me",
+    "text": "more about me\nBefore joining GESIS, I was a Presidential Fellow at the University of Manchester in the Department of Sociology, affiliated with the The Mitchell Centre for Social Network Analysis.\nI received my PhD in Computer Science at the University of Konstanz as a fellow of the Graduate School of Decision Sciences. I also have a diploma in business mathematics from Karlsruhe Institute of Technology."
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Welcome to my Quarto website!",
+    "section": "",
+    "text": "I was very happy with my previous website built using {distill}. Then Quarto was released and it quickly became clear that everything that I loved about working with {distill} was true of Quarto, and then some. As a keen user of a whole suite of packages in the R Markdown ecosystem, I could see the appeal of one coherent system to produce reports, presentations, books and websites. Moreover, Quarto is the natural successor to R Markdown, bringing with it a vast range of improvements, building on what Posit (formerly RStudio) learnt over a decade of developing the latter. When it was made clear that although Posit will maintain {distill}, all future improvements will be to Quarto, I knew it was only a matter of time before I rewrote my website once again (for the fourth time).\nI’m finding working with Quarto to be an absolute joy!"
+  },
+  {
+    "objectID": "CV.html#bio",
+    "href": "CV.html#bio",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "",
+    "text": "I’m a computational epidemiologist and data scientist working at the intersection of AI/ML, computational dynamics and public health. I am the author of Computational Modeling of Infectious Disease, a richly illustrated compendium on modern computational epidemiology, as well as a growing body of research.\nI attended the University of Oxford for my undergraduate studies, graduating with a distinction (1st class), and returned there for my graduate studies. I also hold degrees from Cardiff and Robert Gordon University Aberdeen, and have studied at the University of Leiden under an Erasmus programme. Today, I am board certified in public health, a Fellow of the Royal Society for Public Health and a member of several other learned societies. I have also been elected a Senior Member of IEEE, where I am a member of the EMBS Technical Committee on Standards and the EMBS Technical Committee on Biomedical and Health Informatics.\nI am currently a Practice Director for Biomedical AI/ML for HCLTech, where I advise the world’s leading life sciences, medical devices and pharma companies on how to leverage AI/ML to improve their products and serve their customers better. I am also a visiting thesis supervisor for students on the data science track of the mathematics programme at the Budapest University of Technology and Economics.\nAs part of my service to the profession, I’ve been a reviewer for JOSS, Frontiers in Immunology and Frontiers in Medicine. Between 2022 and 2023, I served Virginia as a member of the Medical Reserve Corps, and currently serve in both the Rocky Mountain MRC of Denver and Colorado’s radiation response MRC. I was also part of the COVID-19 Healthcare Coalition and the Covid Tracking Project.\nYou can find a list of my publications here. My work on COVID-19 has been featured in the media. I also write on various topics as the fancy strikes – you can peruse my notebook here."
+  },
+  {
+    "objectID": "CV.html#key-research-interests",
+    "href": "CV.html#key-research-interests",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "Key research interests",
+    "text": "Key research interests\n\nComputational epidemiology: agent-based modelling, disease-avoidant behaviours, epidemics over dynamic networks, geospatial computational epidemiology – all primarily in the context of infectious diseases\nPharmacovigilance: VAERS, passive reporting, text mining of large complex report sets using LLMs\nComputational dynamics: computational dynamics of complex systems, computational dynamics of infectious diseases, computational dynamics of social systems\nPublic health: evidence-based public health policy, public health ethics, public health law, quality and systems improvement in public health"
+  },
+  {
+    "objectID": "CV.html#teaching",
+    "href": "CV.html#teaching",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "Teaching",
+    "text": "Teaching\nI am a visiting thesis supervisor for students on the data science track of the mathematics programme at the Budapest University of Technology and Economics - you can read more about this here.\nFrom time to time, I get invited to give talks and lectures. My capacity for this is somewhat limited due to other commitments, but if you are interested in having me speak at your event, please get in touch."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "",
+    "text": "I am a Ph.D. candidate in the Department of Political Science at Brown University, specializing in Comparative Politics and Research Methods. My research lies at the intersection of distributive politics and the politics of public security. I’m particularly interested in designing and evaluating crime prevention initiatives and programs that promote the integration of police authorities into society, especially in areas with high demand for state presence. Most of my work employs a quantitative approach, utilizing experimental and observational methods. My research interests include Latin American politics and the role of policing institutions state and non-state in authoritarian and non-authoritarian regimes.\nPreviously, I received a B.A. in Economics from Universidad Javeriana, a M.Sc.in Economics from Universidad Javeriana, and a M.A. in Political Science from Brown University."
+  },
+  {
+    "objectID": "index.html#key-research-interests",
+    "href": "index.html#key-research-interests",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "Key research interests",
+    "text": "Key research interests\n\nThe Politics of Public Security: police-society interactions,\nWar-to-Peace Transitions: Rebel governance\nState-building: computational dynamics"
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "Teaching",
+    "text": "Teaching\nI am a visiting thesis supervisor for students on the data science track of the mathematics programme at the Budapest University of Technology and Economics - you can read more about this here.\nFrom time to time, I get invited to give talks and lectures. My capacity for this is somewhat limited due to other commitments, but if you are interested in having me speak at your event, please get in touch."
+  },
+  {
+    "objectID": "CV.html#why-quarto-why-now",
+    "href": "CV.html#why-quarto-why-now",
+    "title": "Welcome to my Quarto website!",
+    "section": "",
+    "text": "I was very happy with my previous website built using {distill}. Then Quarto was released and it quickly became clear that everything that I loved about working with {distill} was true of Quarto, and then some. As a keen user of a whole suite of packages in the R Markdown ecosystem, I could see the appeal of one coherent system to produce reports, presentations, books and websites. Moreover, Quarto is the natural successor to R Markdown, bringing with it a vast range of improvements, building on what Posit (formerly RStudio) learnt over a decade of developing the latter. When it was made clear that although Posit will maintain {distill}, all future improvements will be to Quarto, I knew it was only a matter of time before I rewrote my website once again (for the fourth time).\nI’m finding working with Quarto to be an absolute joy!"
+  },
+  {
+    "objectID": "CV.html#resources",
+    "href": "CV.html#resources",
+    "title": "Welcome to my Quarto website!",
+    "section": "Resources",
+    "text": "Resources\nThis post is not a guide on how to get a Quarto website up and running and styled. There are already great resources for that. These are the the ones that I found most helpful.\n\nThe basics\n\nMy first taste of Quarto was Mine Çetinkaya-Rundel’s talk about it at the 2022 Toronto Workshop on Reproducibility.\nThe official Quarto tutorials taught me the basics.\nThe official Quarto guide is a treasure trove with the section on websites being, needless to say, most helpful for the development of this site.\n\nThese two posts on making the transition from R Markdown/{distill} to Quarto were also extremely useful:\n\nDanielle Navarro on porting a distill blog to Quarto.\nAlison Hill’s post on why we don’t talk about Quarto.\n\n\n\nGoing further\nThe above resources were enough for me to replicate the website I’d built with {distill}, but as I was putting it together, a couple of excellent posts were published that showed how much customisation was possible, and which massively increased my ambitions for my new site:\n\nAlbert Rapp’s ultimate guide to starting a Quarto blog.\nChristian Gebhard’s guide on switching to Quarto.\n\nThese two posts, in particular, gave me the inspiration and most of the know-how to create my custom home page. They also both contain helpful information on themes and styling."
+  },
+  {
+    "objectID": "CV.html#my-customisations-aka-how-long-could-this-possibly-take",
+    "href": "CV.html#my-customisations-aka-how-long-could-this-possibly-take",
+    "title": "Welcome to my Quarto website!",
+    "section": "My customisations AKA how long could this possibly take?",
+    "text": "My customisations AKA how long could this possibly take?\nI didn’t think it would take too long to make some tweaks, but the more I worked on the site, the more I wanted to change. I’ve managed, with help, to implement customisations that I haven’t seen or read about elsewhere in relation to Quarto. Getting a basic Quarto site up is relatively straight-forward (in fact, Tom Mock shows how it can be done in just 100 seconds), but extensive customisation, particularly when starting with a rudimentary knowledge of HTML and CSS, turned out to be pretty tricky.\nIn this section, I’m going to list what I think are the cool features of this site, all of which I had to learn how to implement as I went along. Some of them are Quarto-specific. Others I expect will be fairly standard to those with a more advanced knowledge of front-end web development, but may well also be new to others who, like me, have come to website-building with Quarto from a backgroud in R programming rather than HTML/CSS/JS.\nFor the sake of brevity, in this post I don’t detail how I achieved these customisations. I just note what I had to learn to implement them. I intend to spin each of the points below into separate tutorial-style blog posts. If you’re interested in seeing how I implemented them in the meantime, you can check out this site’s repo.\n\nAnimated CSS logo\nMy favourite feature of my website is the logo/home link in the top left corner, which is animated on hover.1 To implement this, I had to learn first how to create and style the static version using HTML and CSS and then how to apply the CSS animation. I also had to figure out what HTML I could get away with using in _quarto.yml and the best place in that file to add the code. There were also inconsistencies between browers to contend with. I was inspired to animate my logo by Maya Gans, who helped me a lot with the implementation.\nCreating a logo with CSS also made it possible to easily change its appearance in the light and dark modes of the site. Along the way, I also learnt another strategy for using different logo images in light and dark modes, using CSS to overwrite one image file with another, which is useful if a logo doesn’t lend itself to creation in CSS.\n\n\nAnimated navigation bar links and colours\nHaving animated my logo, I turned to adding an animation on hover to the rest of the links on the navigation bar and learnt more CSS in the process, including @media queries to ensure that the animations only activate when the navbar is in a row. I found a solution online for the animation itself, but figuring out how to match the colours on hover and on the link for the active page to the colour of the corresponding card on the homepage was tricky.\n\n\nCSS grid and bootstrap cards\nSpeaking of which, creating the custom layout of my homepage, using CSS grid and bootstrap cards, was a challenge. The blog posts by Albert and Christian linked to in the previous section got me a lot of the way there, but I still had to dive deep into the bootstrap documentation to make sure the cards and the links inside them all lined up nicely.\n\n\nLight and dark mode\nI put a lot of thought into the colour scheme for both the light and dark modes of the site, and making sure they complemented each other perfectly. For this, I built on what I’d learnt about colour theory and accessibility when designing a custom syntax highlight scheme for my previous website. I also learnt about Sass and made extensive use of custom Sass variables.\n\n\nCustom syntax highlighting\nHaving implemented a custom syntax highlight theme for my {distill} site, and created a function for the {distilltools} package so others could do the same, I had hoped to be able to port that straight over to my Quarto site. Unfortunately, it wasn’t so simple. Although they are both called arrow, there are changes in the implementation of the default syntax highlight scheme for Quarto from how it was implemented in {distill}, and, to make things more awkward, there are also inconsistencies between the light and dark versions of arrow in Quarto. It took me a while to get my head around all that. Modifying my original highlighting theme and creating a complementary theme for the dark mode was finicky.\n\n\ngiscus comments box light/dark toggle\nQuarto makes it easy to add giscus comments boxes, and giscus (and in turn Quarto) make it simple to select from a handful of different themes to style those boxes. There are a selection of light and dark themes, and one option to set the default light or dark theme dynamically based on your computer system setting. There was not, however, an obvious way of making the theme of the giscus box change responsively on toggling the light/dark switch. In response to my query, with a lot of back and forth, Sage (the creator of giscus) figured out the JavaScript to make this happen and I figured out how to integrate it into the Quarto site.\nI would like to apply custom CSS to the giscus comments box in both light and dark modes, which should be possible. I haven’t yet been able to make it work, though, which appears to be an issue related to hosting on Netlify.\n\n\nLocal fonts and open type font features\nBecause I’m interested in typography and think that professional fonts are worth paying for, and in order to give my site a distinct appearance, I purchased licenses for Lemon Milk Pro (used for body and header text) and MonoLisa (used for code). Having done so, I then had to learn the CSS/Sass to apply the local font files to the site. I also learnt all about open type font features, and how to turn them on and off using CSS. I needed this to turn off the default coding ligatures in MonoLisa.2\n\n\nIcon links\nAs on my {distill} site, I’ve made copious use of the icon_link() function in my {distilltools} package, a handy R function that creates a link, with an icon and some text that, with some additional CSS, can be styled a bit like a button, e.g. the code\nhttps://ellakaye.co.uk/contact.html\ndistilltools::icon_link(\n  icon = \"github\",\n  text = \"site repo\",\n  url = \"https://github.com/EllaKaye/ellakaye.co.uk\"\n)"
+  },
+  {
+    "objectID": "CV.html#footnotes",
+    "href": "CV.html#footnotes",
+    "title": "Welcome to my Quarto website!",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis works best on a laptop/desktop but there’s a hint of it on a smartphone when the logo is pressed.↩︎\nAs much as I love coding ligatures when writing code for myself, I prefer not to use them when demonstrating code to others as it’s not then clear what they have to type to replicate it.↩︎"
+  },
+  {
+    "objectID": "index.html#selected-papers",
+    "href": "index.html#selected-papers",
+    "title": "Chris von Csefalvay",
+    "section": "Selected papers",
+    "text": "Selected papers\nTocilizumab in addition to standard of care in the management of COVID-19: A meta-analysis of RCTs. Mutua V, Henry BM, von Csefalvay, C, Cheruiyot I, Vikse J, Lippi G, Bundi B, Mong’are N. Acta Biomed. 2022, 93(1):e2022014. doi: 10.23750/abm.v93i1.12208.\nJAMPI: Efficient matrix multiplication in Spark using barrier execution mode. Foldi T, von Csefalvay C, Perez NA. BDCC 2020, 4(4):32. doi: 10.3390/bdcc4040032.\nVAERS data reveals no increased risk of neuroautoimmune adverse events from COVID- vaccines. von Csefalvay, C. medRxiv 2021. doi: 10.1101/2021.06.13.21258851.\nTuberculous polyserositis in endemic areas with an emphasis on empiric therapy: A case report. Munguti J, Mutua V, Cheruiyot I, von Csefalvay C, Opare-Addo P, Kiko N, Wanjiru R. Medicine: Case Reports. 2022, 3(4):e0221. doi: 10.1097/MD9.0000000000000221.\nSee more here."
+  },
+  {
+    "objectID": "index.html#professional-affiliations",
+    "href": "index.html#professional-affiliations",
+    "title": "Chris von Csefalvay",
+    "section": "Professional affiliations",
+    "text": "Professional affiliations\nThe OR Society | Member since 2020\nRoyal Society for Public Health | Fellow since 2021\nTOPRA | Registered Member since 2021\nAmerican Public Health Association | Member since 2021\nIEEE | Senior Member since 2024"
+  },
+  {
+    "objectID": "index.html#personal-life",
+    "href": "index.html#personal-life",
+    "title": "Chris von Csefalvay",
+    "section": "Personal life",
+    "text": "Personal life\nI live in Denver, CO, with my Golden Retriever, Oliver. Born in Budapest, Hungary, I’ve spent my formative years in England, but have called the Netherlands, Germany, Belgium, Austria and the United States home at various points in my life. Since 2020, I’ve been living in the United States, where I am a permanent resident.\nIn my free time, I enjoy reading (mostly Cold War history and classical Greek drama), cooking (with not a lot of success) and Renaissance polyphony (esp. Thomas Tallis and Orlando di Lasso). I’m credited for a somewhat pretty sequence of integers called Jellyfish Heart numbers (OEIS A344856), which I discovered in 2020 while doing something that has nothing at all to do with my day job.\nI live with neuromyelitis optica since 2015, which has left me with a lifelong desire to understand complex, multicausal health conditions like NMOSD better.\nIn what little is left of my free time, I’m an adaptive multisport athlete, competing in wheelchair rugby, adaptive rowing (category PR1) and the SkiErg (category SIT2). In the latter, I currently hold the world records for 100m, 500m, 1,000m, 2,000m, 6,000m, 10,000m, 21,097m and 42,195m distances and the 60 minutes time. I occasionally rant and whine about my forays in the world of adaptive exercise and my attempts at doing so in a mostly science-based manner."
+  },
+  {
+    "objectID": "index.html#pronunciation-guide",
+    "href": "index.html#pronunciation-guide",
+    "title": "Chris von Csefalvay",
+    "section": "Pronunciation guide",
+    "text": "Pronunciation guide\nMy last name rhymes with Chick-Fil-A."
+  },
+  {
+    "objectID": "stata.html",
+    "href": "stata.html",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "",
+    "text": "--- title: \"Stata testing\" format: pdf ---  ```{r, echo=FALSE, message=FALSE} # Statamarkdown: https://github.com/hemken/Statamarkdown # devtools::install_github(\"Hemken/Statamarkdown\") library(Statamarkdown) ```  Python for fun:  ```{python} print(\"Hey world\") ```  Load some data  ```{stata, collectcode=TRUE} sysuse auto ```  Do a t-test  ```{stata, echo=FALSE, cleanlog=FALSE} ttest mpg, by(foreign) ```"
+  },
+  {
+    "objectID": "pub2.html",
+    "href": "pub2.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Preventing Rebel Resurgence after Civil War: A Field Experiment in Security and Justice Provision in Rural Colombia\n            \n            \n                \n                \n                    Robert A. Blair, Manuel Moscoso-Rojas, Andrés Vargas Castillo, Michael Weintraub \n                \n                \n                \n                    \n                        American Political Science Review, 116(4), 1258-1277 (2022)\n                        \n                        \n                        \n                        \n                        \n                        \n                \n                    \n                    \n                    \n            \n \n        \n        \n            \n                \n                    1 \n                \n\n            \n            \n            \n\n                    \n                    journal URL \n                    \n                \n                    \n\n            \n            \n\n                    \n                    data URL \n                    \n                \n                    \n\n            \n            \n\n                    \n                    PAP URL \n                    \n                \n                    \n                    \n                        \n            \n\n                    \n                    summary URL \n                    \n                \n                            \n\n        \n    \n    \n    \n    \n\n\nNo matching items\n\n\n\nWorking Papers\n\nTitle of Publication 1. Journal Name, Vol(Issue), Page numbers. Link\n\n\n\nBook Chapters\n\nTitle of Publication 2. Journal Name, Vol(Issue), Page numbers. Link"
+  },
+  {
+    "objectID": "dissertation.html#chapter-1",
+    "href": "dissertation.html#chapter-1",
+    "title": "Structure",
+    "section": "Chapter 1",
+    "text": "Chapter 1\n\nPrueba 1"
+  },
+  {
+    "objectID": "dissertation.html#chapter-2",
+    "href": "dissertation.html#chapter-2",
+    "title": "Structure",
+    "section": "Chapter 2",
+    "text": "Chapter 2\n\nTitle of Publication 3. Journal Name, Vol(Issue), Page numbers. Link"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download CV"
+  },
+  {
+    "objectID": "index.html#welcome-bienvenid",
+    "href": "index.html#welcome-bienvenid",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "",
+    "text": "I am a Ph.D. candidate in the Department of Political Science at Brown University, specializing in Comparative Politics and Research Methods. My research lies at the intersection of distributive politics and the politics of public security. I’m particularly interested in designing and evaluating crime prevention initiatives and programs that promote the integration of police authorities into society, especially in areas with high demand for state presence. Most of my work employs a quantitative approach, utilizing experimental and observational methods. My research interests include Latin American politics and the role of policing institutions state and non-state in authoritarian and non-authoritarian regimes.\nPreviously, I received a B.A. in Economics from Universidad Javeriana, a M.Sc.in Economics from Universidad Javeriana, and a M.A. in Political Science from Brown University."
+  },
+  {
+    "objectID": "dissertation.html",
+    "href": "dissertation.html",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "",
+    "text": "Causes and Consequences of the Uneven Distribution of Public Security in Colombia\nWhy do states provide security to some places and not others within their borders? Who are the primary beneficiaries of the security provision in rural areas? How does the uneven distribution of security affect citizen-state relations? Despite renewed interest in understanding the states’ uneven territorial reach, little we know about why states prioritize the expansion of their security apparatus to some places and not others and its consequences on state-citizen relations. Using original qualitative and quantitative data from Colombia, this project unpacks the decision-making process of allocating and distributing police infrastructure in Colombia. It explores its impact on various facets, including the emergence of conflict resolution strategies, the coordination and division of labor between communities and police, the capacities of both community members and law enforcement, and the prevailing perceptions of security and coexistence. This is a three-paper dissertation which focused on the case of Colombia.\n\n\n\n\n\n\n1. War-to-Peace Transition: A Case Study of Colombia’s Law-and-Order Politics \nWhy do states provide security to some places and not others within their borders? Who are the primary beneficiaries of the security provision in rural areas?\nData collection: Primary and secondary information from official sources and non-governmental organizations.\n\n\n2. Consequences of the Uneven Distribution of Security in Colombia \nWhy do states provide security to some places and not others within their borders? Who are the primary beneficiaries of the security provision in rural areas?\nData collection: Four original surveys applied in 66 populated centers of four subregions in Colombia.\n\n\n3. Community Monitors to Solve the Dilemmas of Rural Policing: A Randomized Evaluation in Colombia \nDoes supplying police officers with information from community monitors generate accountability pressure to improve public goods provision and citizen satisfaction? Could bottom-up accountability initiatives improve police-citizens relations? Are community monitors in rural areas an effective strategy to aggregate citizens’ security preferences? This project attempts to answer these questions through an RCT in rural villages in Colombia by activating community monitors using communal institutions.\nData collection: Baseline data supported by J-PAL\n\n\n\n\n\nData collection"
+  },
+  {
+    "objectID": "dissertation.html#title-dissertation",
+    "href": "dissertation.html#title-dissertation",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "",
+    "text": "War-to-peace transition: A case study of Colombia’s law-and-order politics\n\nSome text that should be laid out below the code\n\n\n\nConsequences of the uneven distribution of security \n\n\n\n\nReintegration"
+  },
+  {
+    "objectID": "cv/index.knit.html",
+    "href": "cv/index.knit.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download CV"
+  },
+  {
+    "objectID": "dissertation.html#war-to-peace-transition-a-case-study-of-colombias-law-and-order-politics-a-photo-of-a-book",
+    "href": "dissertation.html#war-to-peace-transition-a-case-study-of-colombias-law-and-order-politics-a-photo-of-a-book",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "1. War-to-Peace Transition: A Case Study of Colombia’s Law-and-Order Politics ",
+    "text": "1. War-to-Peace Transition: A Case Study of Colombia’s Law-and-Order Politics \nWhy do states provide security to some places and not others within their borders? Who are the primary beneficiaries of the security provision in rural areas?\nData collection: Primary and secondary information from official sources and non-governmental organizations."
+  },
+  {
+    "objectID": "dissertation.html#consequences-of-the-uneven-distribution-of-security-in-colombia-a-photo-of-a-book",
+    "href": "dissertation.html#consequences-of-the-uneven-distribution-of-security-in-colombia-a-photo-of-a-book",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "2. Consequences of the Uneven Distribution of Security in Colombia ",
+    "text": "2. Consequences of the Uneven Distribution of Security in Colombia \nWhy do states provide security to some places and not others within their borders? Who are the primary beneficiaries of the security provision in rural areas?\nData collection: Four original surveys applied in 66 populated centers of four subregions in Colombia."
+  },
+  {
+    "objectID": "dissertation.html#community-monitors-to-solve-the-dilemmas-of-rural-policing-a-randomized-evaluation-in-colombia-a-photo-of-a-book",
+    "href": "dissertation.html#community-monitors-to-solve-the-dilemmas-of-rural-policing-a-randomized-evaluation-in-colombia-a-photo-of-a-book",
+    "title": "Manuel Moscoso-Rojas",
+    "section": "3. Community Monitors to Solve the Dilemmas of Rural Policing: A Randomized Evaluation in Colombia ",
+    "text": "3. Community Monitors to Solve the Dilemmas of Rural Policing: A Randomized Evaluation in Colombia \nDoes supplying police officers with information from community monitors generate accountability pressure to improve public goods provision and citizen satisfaction? Could bottom-up accountability initiatives improve police-citizens relations? Are community monitors in rural areas an effective strategy to aggregate citizens’ security preferences? This project attempts to answer these questions through an RCT in rural villages in Colombia by activating community monitors using communal institutions.\nData collection: Baseline data supported by J-PAL"
   }
 ]
