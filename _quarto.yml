@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Manuel Moscoso-Rojas"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Publications
+        href: pub2.qmd
+      - text: CV
+        href: cv/index.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Stata
+        href: stata.qmd
+      - text: Dissertation
+        href: dissertation.qmd
+
+format:
+  html:
+    theme: 
+      - cosmo
+    css: custom.css
+    toc: true
+
+editor: visual
+reader-mode: true
+google-analytics: true

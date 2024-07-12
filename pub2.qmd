@@ -1,0 +1,17 @@
+## Research
+
+# Publications
+
+-   **Preventing Rebel Resurgence after Civil War: A Field Experiment in Security and Justice Provision in Rural Colombia**. With Rob Blair, Andrés Vargas, and Michael Weintraub. American Political Science Review, 2022, 116(4), 1258-1277. [Link](https://www.cambridge.org/core/journals/american-political-science-review/article/preventing-rebel-resurgence-after-civil-war-a-field-experiment-in-security-and-justice-provision-in-rural-colombia/49DEECA91BC07D752CE119CCE59E6CE9). [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OXSQMU) [PAP](https://osf.io/yw7ts) [Policy Note](https://egap.org/resource/brief-how-can-states-consolidate-peace-after-civil-war/)
+
+# Working Papers
+
+-   **War-to-peace transition: A case study of Colombia's law-and-order politics**. [Link](URL)
+
+-   **Do Temporary Bans on Carrying Firearms Reduce Violent Outcomes? The Colombian Case**. With Jorge A. Restrepo and Edgar Villa. [Link](URL)
+
+# Book Chapters
+
+-   **Insecurity and hybrid organization forms in rural zones affected by violence**. With Luz Elena Orozco, Clemente Forero, and Eduardo Wills. Academy and Peace Processes, 34-60. [Link](URL)
+
+-   **Economic growth, armed conflict and organized crime: Colombian evidence**. With Jorge A. Restrepo and Edgar Villa. Economic and Social Consequences of Armed Conflict in Colombia, ESRC/DIFD, Universidad de los Andes. 35-65. [Link](URL)

@@ -1,0 +1,53 @@
+---
+title: Curriculum Vitae
+description: "Manuel Moscoso-Rojas's CV"
+date: 2024-05-31
+published-title: CV last updated
+engine: knitr
+freeze: false
+cv:
+  pdf: "2024-05-31_manuel-cv.pdf"
+---
+
+::: {.cell}
+<style type="text/css">
+#title-block-header .description {
+    display: none;
+}
+</style>
+:::
+
+::: {.cell}
+<style type="text/css">
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+:::
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="2024-05-31_manuel-cv.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download CV
+  </a>
+</p>
+
+<div class="embed-container">
+  <iframe src="2024-05-31_manuel-cv.pdf" style="border: 0.5px"></iframe>
+</div>
+```
+

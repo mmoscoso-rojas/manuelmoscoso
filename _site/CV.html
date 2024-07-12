@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.553">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Manuel Moscoso-Rojas">
+<meta name="dcterms.date" content="2022-12-11">
+<meta name="description" content="Resources I found inspiring and useful when building my new site, plus notes on my customisations">
+
+<title>Manuel Moscoso-Rojas - Welcome to my Quarto website!</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="custom.css">
+<meta property="og:title" content="Manuel Moscoso-Rojas - Welcome to my Quarto website!">
+<meta property="og:description" content="Resources I found inspiring and useful when building my new site, plus notes on my customisations">
+<meta property="og:image" content="quarto.png">
+<meta property="og:site_name" content="Manuel Moscoso-Rojas">
+<meta name="twitter:title" content="Welcome to my website!">
+<meta name="twitter:description" content="Resources I found inspiring and useful when building my new site, plus notes on my customisations">
+<meta name="twitter:image" content="../../images/ES_RestrictedSample_homrate.png">
+<meta name="twitter:image:alt" content="A square logo made from Ella Kaye's name - first name on top of last name in dark gray capital letters, separated by a horizontal bright pink line, on a very light grey background
+">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Manuel Moscoso-Rojas</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./pub2.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv/index.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./stata.html"> 
+<span class="menu-text">Stata</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./dissertation.html"> 
+<span class="menu-text">Dissertation</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#why-quarto-why-now" id="toc-why-quarto-why-now" class="nav-link active" data-scroll-target="#why-quarto-why-now">Why Quarto? Why now?</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a>
+  <ul class="collapse">
+  <li><a href="#the-basics" id="toc-the-basics" class="nav-link" data-scroll-target="#the-basics">The basics</a></li>
+  <li><a href="#going-further" id="toc-going-further" class="nav-link" data-scroll-target="#going-further">Going further</a></li>
+  </ul></li>
+  <li><a href="#my-customisations-aka-how-long-could-this-possibly-take" id="toc-my-customisations-aka-how-long-could-this-possibly-take" class="nav-link" data-scroll-target="#my-customisations-aka-how-long-could-this-possibly-take">My customisations AKA how long could this possibly take?</a>
+  <ul class="collapse">
+  <li><a href="#animated-css-logo" id="toc-animated-css-logo" class="nav-link" data-scroll-target="#animated-css-logo">Animated CSS logo</a></li>
+  <li><a href="#animated-navigation-bar-links-and-colours" id="toc-animated-navigation-bar-links-and-colours" class="nav-link" data-scroll-target="#animated-navigation-bar-links-and-colours">Animated navigation bar links and colours</a></li>
+  <li><a href="#css-grid-and-bootstrap-cards" id="toc-css-grid-and-bootstrap-cards" class="nav-link" data-scroll-target="#css-grid-and-bootstrap-cards">CSS grid and bootstrap cards</a></li>
+  <li><a href="#light-and-dark-mode" id="toc-light-and-dark-mode" class="nav-link" data-scroll-target="#light-and-dark-mode">Light and dark mode</a></li>
+  <li><a href="#custom-syntax-highlighting" id="toc-custom-syntax-highlighting" class="nav-link" data-scroll-target="#custom-syntax-highlighting">Custom syntax highlighting</a></li>
+  <li><a href="#giscus-comments-box-lightdark-toggle" id="toc-giscus-comments-box-lightdark-toggle" class="nav-link" data-scroll-target="#giscus-comments-box-lightdark-toggle">giscus comments box light/dark toggle</a></li>
+  <li><a href="#local-fonts-and-open-type-font-features" id="toc-local-fonts-and-open-type-font-features" class="nav-link" data-scroll-target="#local-fonts-and-open-type-font-features">Local fonts and open type font features</a></li>
+  <li><a href="#icon-links" id="toc-icon-links" class="nav-link" data-scroll-target="#icon-links">Icon links</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Welcome to my Quarto website!</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">distilltools</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>Resources I found inspiring and useful when building my new site, plus notes on my customisations</p>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Manuel Moscoso-Rojas </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 11, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!--------------- set up ----------------->
+<!--------------- post content ----------------->
+<section id="why-quarto-why-now" class="level2">
+<h2 class="anchored" data-anchor-id="why-quarto-why-now">Why Quarto? Why now?</h2>
+<p>I was very happy with my previous <a href="../2021-05-08_welcome-distill/index.qmd">website built using {distill}</a>. Then Quarto was released and it quickly became clear that everything that I loved about working with {distill} was true of Quarto, and then some. As a keen user of a whole suite of packages in the R Markdown ecosystem, I could see the appeal of one coherent system to produce reports, presentations, books and websites. Moreover, Quarto is the natural successor to R Markdown, bringing with it a vast range of improvements, building on what <a href="https://posit.co">Posit</a> (formerly RStudio) learnt over a decade of developing the latter. When it was made clear that although Posit will maintain {distill}, all future improvements will be to Quarto, I knew it was only a matter of time before I rewrote my website once again (for the fourth time).</p>
+<p>I’m finding working with Quarto to be an absolute joy!</p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>This post is not a guide on how to get a Quarto website up and running and styled. There are already great resources for that. These are the the ones that I found most helpful.</p>
+<section id="the-basics" class="level3">
+<h3 class="anchored" data-anchor-id="the-basics">The basics</h3>
+<ul>
+<li><p>My first taste of Quarto was Mine Çetinkaya-Rundel’s <a href="https://www.youtube.com/watch?v=6p4vOKS6Xls" target="_blank">talk</a> about it at the 2022 Toronto Workshop on Reproducibility.</p></li>
+<li><p>The official Quarto <a href="https://quarto.org/docs/get-started/" target="_blank">tutorials</a> taught me the basics.</p></li>
+<li><p>The official Quarto <a href="https://quarto.org/docs/guide/" target="_blank">guide</a> is a treasure trove with the section on <a href="https://quarto.org/docs/websites/">websites</a> being, needless to say, most helpful for the development of this site.</p></li>
+</ul>
+<p>These two posts on making the transition from R Markdown/{distill} to Quarto were also extremely useful:</p>
+<ul>
+<li><p>Danielle Navarro on <a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/" target="_blank">porting a distill blog to Quarto</a>.</p></li>
+<li><p>Alison Hill’s post on why <a href="https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/" target="_blank">we don’t talk about Quarto</a>.</p></li>
+</ul>
+</section>
+<section id="going-further" class="level3">
+<h3 class="anchored" data-anchor-id="going-further">Going further</h3>
+<p>The above resources were enough for me to replicate the website I’d built with {distill}, but as I was putting it together, a couple of excellent posts were published that showed how much customisation was possible, and which massively increased my ambitions for my new site:</p>
+<ul>
+<li><p>Albert Rapp’s <a href="https://albert-rapp.de/posts/13_quarto_blog_writing_guide/13_quarto_blog_writing_guide.html" target="_blank">ultimate guide to starting a Quarto blog</a>.</p></li>
+<li><p>Christian Gebhard’s guide on <a href="https://jollydata.blog/posts/2022-08-06-_switching-to-quarto/switching-to-quarto.html" target="_blank">switching to Quarto</a>.</p></li>
+</ul>
+<p>These two posts, in particular, gave me the inspiration and most of the know-how to create my custom home page. They also both contain helpful information on themes and styling.</p>
+</section>
+</section>
+<section id="my-customisations-aka-how-long-could-this-possibly-take" class="level2">
+<h2 class="anchored" data-anchor-id="my-customisations-aka-how-long-could-this-possibly-take">My customisations AKA how long could this possibly take?</h2>
+<p>I didn’t think it would take too long to make some tweaks, but the more I worked on the site, the more I wanted to change. I’ve managed, with help, to implement customisations that I haven’t seen or read about elsewhere in relation to Quarto. Getting a basic Quarto site up is relatively straight-forward (in fact, Tom Mock shows how it can be done in just <a href="https://www.youtube.com/watch?v=t8qtcDyCRFA" target="_blank">100 seconds</a>), but extensive customisation, particularly when starting with a rudimentary knowledge of HTML and CSS, turned out to be pretty tricky.</p>
+<p>In this section, I’m going to list what I think are the cool features of this site, all of which I had to learn how to implement as I went along. Some of them are Quarto-specific. Others I expect will be fairly standard to those with a more advanced knowledge of front-end web development, but may well also be new to others who, like me, have come to website-building with Quarto from a backgroud in R programming rather than HTML/CSS/JS.</p>
+<p>For the sake of brevity, in <em>this</em> post I don’t detail how I achieved these customisations. I just note what I had to learn to implement them. I intend to spin each of the points below into separate tutorial-style blog posts. If you’re interested in seeing how I implemented them in the meantime, you can check out this site’s <a href="https://github.com/EllaKaye/ellakaye.co.uk" target="_blank">repo</a>.</p>
+<section id="animated-css-logo" class="level3">
+<h3 class="anchored" data-anchor-id="animated-css-logo">Animated CSS logo</h3>
+<p>My favourite feature of my website is the logo/home link in the top left corner, which is animated on hover.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> To implement this, I had to learn first how to create and style the static version using HTML and CSS and then how to apply the CSS animation. I also had to figure out what HTML I could get away with using in <code>_quarto.yml</code> and the best place in that file to add the code. There were also inconsistencies between browers to contend with. I was inspired to animate my logo by <a href="https://maya.rbind.io" target="_blank">Maya Gans</a>, who helped me a lot with the implementation.</p>
+<p>Creating a logo with CSS also made it possible to easily change its appearance in the light and dark modes of the site. Along the way, I also learnt <a href="https://github.com/quarto-dev/quarto-cli/discussions/1647" target="_blank">another strategy</a> for using different logo images in light and dark modes, using CSS to overwrite one image file with another, which is useful if a logo doesn’t lend itself to creation in CSS.</p>
+</section>
+<section id="animated-navigation-bar-links-and-colours" class="level3">
+<h3 class="anchored" data-anchor-id="animated-navigation-bar-links-and-colours">Animated navigation bar links and colours</h3>
+<p>Having animated my logo, I turned to adding an animation on hover to the rest of the links on the navigation bar and learnt more CSS in the process, including <span class="citation" data-cites="media">@media</span> queries to ensure that the animations only activate when the navbar is in a row. I found a solution online for the animation itself, but figuring out how to match the colours on hover and on the link for the active page to the colour of the corresponding card on the homepage was tricky.</p>
+</section>
+<section id="css-grid-and-bootstrap-cards" class="level3">
+<h3 class="anchored" data-anchor-id="css-grid-and-bootstrap-cards">CSS grid and bootstrap cards</h3>
+<p>Speaking of which, creating the custom layout of my homepage, using CSS grid and bootstrap cards, was a challenge. The blog posts by Albert and Christian linked to in the previous section got me a lot of the way there, but I still had to dive deep into the <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">bootstrap documentation</a> to make sure the cards and the links inside them all lined up nicely.</p>
+</section>
+<section id="light-and-dark-mode" class="level3">
+<h3 class="anchored" data-anchor-id="light-and-dark-mode">Light and dark mode</h3>
+<p>I put a <em>lot</em> of thought into the colour scheme for both the light and dark modes of the site, and making sure they complemented each other perfectly. For this, I built on what I’d learnt about <a href="../2021-05-26_custom-highlighting-distill-2/index.qmd">colour theory and accessibility when designing a custom syntax highlight scheme</a> for my previous website. I also learnt about Sass and made extensive use of custom Sass variables.</p>
+</section>
+<section id="custom-syntax-highlighting" class="level3">
+<h3 class="anchored" data-anchor-id="custom-syntax-highlighting">Custom syntax highlighting</h3>
+<p>Having <a href="../2021-05-25_custom-highlighting-distill-1/index.qmd">implemented a custom syntax highlight theme</a> for my {distill} site, and created a function for the <a href="../../packages/distilltools/index.qmd">{distilltools}</a> package so others could do the same, I had hoped to be able to port that straight over to my Quarto site. Unfortunately, it wasn’t so simple. Although they are both called <code>arrow</code>, there are changes in the implementation of the default syntax highlight scheme for Quarto from how it was implemented in {distill}, and, to make things more awkward, there are also inconsistencies between the light and dark versions of <code>arrow</code> in Quarto. It took me a while to get my head around all that. Modifying my original highlighting theme and creating a complementary theme for the dark mode was finicky.</p>
+</section>
+<section id="giscus-comments-box-lightdark-toggle" class="level3">
+<h3 class="anchored" data-anchor-id="giscus-comments-box-lightdark-toggle">giscus comments box light/dark toggle</h3>
+<p>Quarto makes it easy to add <a href="https://giscus.app" target="_blank">giscus</a> comments boxes, and giscus (and in turn Quarto) make it simple to select from a handful of different themes to style those boxes. There are a selection of light and dark themes, and one option to set the default light or dark theme dynamically based on your computer system setting. There was not, however, an obvious way of making the theme of the giscus box change responsively on toggling the light/dark switch. In response to my query, with a lot of back and forth, Sage (the creator of giscus) figured out the <a href="https://github.com/giscus/giscus/issues/336#issuecomment-1214366281" target="_blank">JavaScript to make this happen</a> and I figured out how to <a href="https://github.com/giscus/giscus/issues/336#issuecomment-1214401296" target="_blank">integrate it into the Quarto site</a>.</p>
+<p>I would like to apply custom CSS to the giscus comments box in both light and dark modes, which should be possible. I haven’t yet been able to make it work, though, which appears to be an <a href="https://github.com/giscus/giscus/issues/789" target="_blank">issue</a> related to hosting on Netlify.</p>
+</section>
+<section id="local-fonts-and-open-type-font-features" class="level3">
+<h3 class="anchored" data-anchor-id="local-fonts-and-open-type-font-features">Local fonts and open type font features</h3>
+<p>Because I’m interested in typography and think that professional fonts are worth paying for, and in order to give my site a distinct appearance, I purchased licenses for <a href="" target="_blank">Lemon Milk Pro</a> (used for body and header text) and <a href="https://www.monolisa.dev" target="_blank">MonoLisa</a> (used for code). Having done so, I then had to learn the CSS/Sass to apply the local font files to the site. I also learnt all about <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/OpenType_fonts_guide">open type font features</a>, and how to turn them on and off using CSS. I needed this to turn off the default coding ligatures in MonoLisa.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</section>
+<section id="icon-links" class="level3">
+<h3 class="anchored" data-anchor-id="icon-links">Icon links</h3>
+<p>As on my {distill} site, I’ve made copious use of the <code>icon_link()</code> function in my <a href="https://github.com/EllaKaye/distilltools/" target="_blank">{distilltools}</a> package, a handy R function that creates a link, with an icon and some text that, with some additional CSS, can be styled a bit like a button, e.g.&nbsp;the code</p>
+<p>https://ellakaye.co.uk/contact.html</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>distilltools<span class="sc">::</span><span class="fu">icon_link</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">icon =</span> <span class="st">"github"</span>,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">text =</span> <span class="st">"site repo"</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">url =</span> <span class="st">"https://github.com/EllaKaye/ellakaye.co.uk"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This works best on a laptop/desktop but there’s a hint of it on a smartphone when the logo is pressed.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>As much as I love coding ligatures when writing code for myself, I prefer not to use them when demonstrating code to others as it’s not then clear what they have to type to replicate it.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

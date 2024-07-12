@@ -1,0 +1,31 @@
+### Causes and Consequences of the Uneven Distribution of Public Security in Colombia
+
+Why do states provide security to some places and not others within their borders? Who are the primary beneficiaries of the security provision in rural areas? How does the uneven distribution of security affect citizen-state relations? Despite renewed interest in understanding the states’ uneven territorial reach, little we know about why states prioritize the expansion of their security apparatus to some places and not others and its consequences on state-citizen relations. Using original qualitative and quantitative data from Colombia, this project unpacks the decision-making process of allocating and distributing police infrastructure in Colombia. It explores its impact on various facets, including the emergence of conflict resolution strategies, the coordination and division of labor between communities and police, the capacities of both community members and law enforcement, and the prevailing perceptions of security and coexistence. This is a three-paper dissertation which focused on the case of Colombia.
+
+::: {layout="[ 34, 33, 33 ]"}
+::: {#first-column}
+**1.  War-to-Peace Transition: A Case Study of Colombia's Law-and-Order Politics** ![A photo of a book](images/elephant.jpg)
+
+Why do states provide security to some places and not others within their borders? Who are the primary beneficiaries of the security provision in rural areas?
+
+Data collection: Primary and secondary information from official sources and non-governmental organizations.
+:::
+
+::: {#second-column}
+**2.  Consequences of the Uneven Distribution of Security in Colombia** ![A photo of a book](images/ES_RestrictedSample_homrate.jpg)
+
+Why do states provide security to some places and not others within their borders? Who are the primary beneficiaries of the security provision in rural areas?
+
+Data collection: Four original surveys applied in 66 populated centers of four subregions in Colombia.
+:::
+
+::: {#third-column}
+**3.  Community Monitors to Solve the Dilemmas of Rural Policing: A Randomized Evaluation in Colombia** ![A photo of a book](images/ES_RestrictedSample_homrate.jpg)
+
+Does supplying police officers with information from community monitors generate accountability pressure to improve public goods provision and citizen satisfaction? Could bottom-up accountability initiatives improve police-citizens relations? Are community monitors in rural areas an effective strategy to aggregate citizens’ security preferences? This project attempts to answer these questions through an RCT in rural villages in Colombia by activating community monitors using communal institutions.
+
+Data collection: Baseline data supported by J-PAL
+:::
+:::
+
+### Data collection

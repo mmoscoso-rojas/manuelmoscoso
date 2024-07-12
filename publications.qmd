@@ -1,0 +1,16 @@
+## title: "Publications"
+
+# Publications
+
+Here is an example photo:
+
+![A photo of a book](images/ES_RestrictedSample_homrate.jpg)
+
+## 2023
+
+-   **Title of Publication 1**. Journal Name, Vol(Issue), Page numbers. [Link](URL)
+-   **Title of Publication 2**. Journal Name, Vol(Issue), Page numbers. [Link](URL)
+
+## 2022
+
+-   **Title of Publication 3**. Journal Name, Vol(Issue), Page numbers. [Link](URL)

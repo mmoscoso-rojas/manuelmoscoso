@@ -1,0 +1,16 @@
+---
+title: "Preventing Rebel Resurgence after Civil War: A Field Experiment in Security and Justice Provision in Rural Colombia"
+date: 2022-03-31
+author: ["Robert A. Blair", "Manuel Moscoso-Rojas", "Andrés Vargas Castillo", "Michael Weintraub"]
+publication: "American Political Science Review, **116(4)**, _1258-1277_ (2022)."
+categories: []
+url_source: https://www-cambridge-org.revproxy.brown.edu/core/journals/american-political-science-review/article/preventing-rebel-resurgence-after-civil-war-a-field-experiment-in-security-and-justice-provision-in-rural-colombia/49DEECA91BC07D752CE119CCE59E6CE9
+url_data: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OXSQMU
+url_PAP: https://osf.io/yw7ts
+url_summary: https://egap.org/resource/brief-how-can-states-consolidate-peace-after-civil-war/
+journ: "American Political Science Review"
+issue: 116(4)
+page: 1258-1277
+year: 2022
+pub_number: 1
+---

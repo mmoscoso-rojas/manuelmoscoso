@@ -1,0 +1,64 @@
+---
+title: Manuel Moscoso-Rojas
+description: |
+  Resources I found inspiring and useful when building my new site, plus notes on my customisations
+date: 2022-12-11
+author: 
+  - name: Manuel Moscoso-Rojas
+    #url: https://fosstodon.org/@ellakaye
+site-url: https://ellakaye.co.uk
+image: quarto.png
+image-alt: |
+  The quarto logo, a blue circle divided into quadrants followed by the word 'quarto'
+categories:
+  - Quarto
+  - distilltools
+include-in-header: ../../_includes/fontawesome-2up.html
+open-graph: true
+twitter-card:
+# will inherit title, description, image
+# to change ANYTHING about card, need to fill in EVERYTHING below
+  title: Welcome to my Quarto website!
+  description: |
+    Resources I found inspiring and useful when building my new site, plus notes on my customisations
+  image: ../../images/logo.png
+  image-alt: |
+    A square logo made from Ella Kaye's name - first name on top of last name in dark gray capital letters, separated by a horizontal bright pink line, on a very light grey background
+#  defaults to 500 x 500 summary: uncomment lines below for large card
+#  image-width: 600 
+#  image-height: 314
+#  card-style: summary_large_image 
+  image-width: 500
+  image-height: 500
+  card-style: summary
+draft: false
+---
+
+<!--------------- set up ----------------->
+
+```{r}
+#| echo: false
+#| results: 'hide'
+
+long_slug <- "2022-12-11_welcome-quarto"
+
+# NOTE: after finishing post, run renv::snapshot() and copy the renv.lock file 
+# from the project root into the post directory
+# renv::use(lockfile = "renv.lock")
+```
+
+<!--------------- post content ----------------->
+
+Hello, and welcome to my new site, built using [Quarto](https://quarto.org){target="_blank"}. Here’s why I switched from [{distill}](https://rstudio.github.io/distill/){target="_blank"} and the resources that helped me in the process. I also outline some of the customisations I made and set out plans for future blog posts.
+
+## Why Quarto? Why now?
+
+I was very happy with my previous [website built using {distill}](../2021-05-08_welcome-distill/index.qmd). Then Quarto was released and it quickly became clear that everything that I loved about working with {distill} was true of Quarto, and then some. As a keen user of a whole suite of packages in the R Markdown ecosystem, I could see the appeal of one coherent system to produce reports, presentations, books and websites. Moreover, Quarto is the natural successor to R Markdown, bringing with it a vast range of improvements, building on what [Posit](https://posit.co) (formerly RStudio) learnt over a decade of developing the latter. When it was made clear that although Posit will maintain {distill}, all future improvements will be to Quarto, I knew it was only a matter of time before I rewrote my website once again (for the fourth time).
+
+I'm finding working with Quarto to be an absolute joy!
+
+## Resources
+
+This post is not a guide on how to get a Quarto website up and running and styled. There are already great resources for that. These are the the ones that I found most helpful.
+
+
