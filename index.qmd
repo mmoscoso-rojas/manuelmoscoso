@@ -12,7 +12,7 @@ about:
 image: images/IMG_6240.jpg
 comments: false
 abstract-title: Political Scientist
-abstract: manuel_moscoso_rojas@brown.edu
+abstract: manuel_moscoso@tec.mx
 # page-layout: full
 ---
 
