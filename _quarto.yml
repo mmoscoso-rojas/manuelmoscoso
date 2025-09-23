@@ -14,8 +14,6 @@ website:
         href: cv/index.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: Stata
-        href: stata.qmd
       - text: Dissertation
         href: dissertation.qmd
 
@@ -29,3 +27,4 @@ format:
 editor: visual
 reader-mode: true
 google-analytics: true
+
