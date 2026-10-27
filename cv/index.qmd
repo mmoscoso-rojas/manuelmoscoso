@@ -1,12 +1,12 @@
 ---
 title: Curriculum Vitae
 description: "Manuel Moscoso-Rojas's CV"
-date: 2024-05-31
+date: 2027-10-27
 published-title: CV last updated
 engine: knitr
 freeze: false
 cv:
-  pdf: "2024-05-31_manuel-cv.pdf"
+  pdf: "2026-10-27_manuel-cv.pdf"
 ---
 
 ```{css, echo=FALSE}
